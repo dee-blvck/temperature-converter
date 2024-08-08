@@ -34,10 +34,10 @@ const convert = () => {
             result.innerHTML = `${converter.value}°F is ${value.toFixed(2)} in °C`;
         }
     } else if (converter.value == '') {
-        result.style.color = "black"
+        result.style.color = "white"
         result.innerHTML = 'Enter some number';
     } else {
-        result.style.color = "black"
+        result.style.color = "white"
         result.innerHTML = 'Enter only numbers!!!';
     }
     }
