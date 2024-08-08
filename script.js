@@ -25,7 +25,7 @@ const reset = () => {
 
 const convert = () => {
     if (/^(-?)(\d+)(\.{1}\d+)?$/.test(converter.value)){
-        result.style.color = "black"
+        result.style.color = "white"
         if (C.innerHTML === '°C') {
             let value = (converter.value * 1.8) + 32;
             result.innerHTML = `${converter.value}°C is ${value.toFixed(2)} in °F`;
